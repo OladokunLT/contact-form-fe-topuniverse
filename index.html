@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form | Top Universer FE Task </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Contact</h3>
+            <h1>Get in touch</h1>
+            <p>We’d love to hear from you. Please fill out this form.</p>
+        </header>
+        <form action="">
+            <div class="names">
+                <div>
+                    <label for="fname">First name</label>
+                    <input 
+                        type="text" 
+                        placeholder="First name"
+                        name="fname"
+                        id="fname"
+                    >
+                </div>
+                <div>
+                    <label for="lname">Last name</label>
+                    <input 
+                        type="text" 
+                        placeholder="Last name"
+                        name="lname"
+                        id="lname"
+                    >
+                </div>
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="you@company.com">
+            </div>
+            <div class="phone">
+                <label for="tel">Phone number</label>
+                <div class="country-tel">
+                    <select>
+                        <option value="">US</option>
+                    </select>
+                    <input type="tel" name="" id="tel" placeholder="+1 (555) 000-0000">
+                </div>
+
+            </div>              
+            <div class="message" >
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" placeholder="Enter message"></textarea>
+            </div>
+            <div class="privacy">
+                <input type="checkbox" name="privacy" id="privacy">
+                <label for="privacy">You agree to our friendly <a href="#">privacy policy</a>.</label>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

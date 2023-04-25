@@ -1,0 +1,122 @@
+@import url('./fonts/stylesheet.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: inter, sans-serif;
+}
+header {
+    margin-inline: 5.6%;
+    margin-block-start: 6.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6941C6;
+    padding-block-end: 0.75rem;
+}
+header h1 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.02em;
+    color: #101828;
+    padding-block-end: 1.25rem;
+}
+header p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #667085;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-block-start: 4.4%;
+    margin-block-end: 6.7%;
+    margin-inline: 33.3%;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    display: inline;
+}
+.privacy {
+    display: flex;
+    gap: 12px;
+}
+div.names {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.1%;
+} 
+input[type="text"], 
+input[type='email'], 
+input[type='tel'], 
+select, textarea, button {
+    width: 100%;
+    padding-inline: 16px;
+    padding-block: 12px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+div.country-tel {
+    display: flex;
+}
+select {
+    width: 80px;
+    border-inline-end: none;
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+}
+input[type="tel"] {
+    border-inline-start: 0;
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+    flex-grow: 1;
+}
+a {
+    color: #101828;
+}
+button {
+    background-color: #6941C6;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media (width <= 768px) {
+    header {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 2.0rem;
+        line-height: 1.0rem;
+        letter-spacing: -0.02em;
+    }
+    header p {
+        font-size: 1.0rem;
+        line-height: 1.8rem;
+    }
+    form {
+        margin-inline: 3%;
+    }
+    div.names {
+        flex-direction: column;
+        row-gap: 24px;
+    } 
+}
