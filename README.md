@@ -2,9 +2,9 @@
 
 See scanned images of the Solution below.
 
-![Image of desktop screen (width: 1440px) solution](https://tinyurl.com/23ouelj3)
+![Image of desktop screen (width: 1440px) solution](./solution-images/Contact%20Form%20_Desktop.png)
 
-![Image of mobile screen(width: 375px) solution 275px](https://tinyurl.com/27g3utfe)
+![Image of mobile screen(width: 375px) solution 275px](./solution-images/Contact-form-mobile.png)
 
 ## Life URL link
 [visit live url](https://oladokunlt.github.io/contact-form-fe-topuniverse)
